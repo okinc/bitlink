@@ -1,0 +1,81 @@
+ec_key
+--------
+ec_key_id : INTEGER
+ec_key_address : TEXT
+ec_key_public : TEXT
+ec_key_private : TEXT
+received : INTEGER
+sent : INTEGER
+amount : INTEGER
+state : INTEGER
+
+======================
+
+tx
+--------
+tx_id : INTEGER
+tx_hash : TEXT
+tx_hex : TEXT
+
+======================
+
+input
+--------
+input_id : INTEGER
+tx_id : INTEGER
+from_tx : TEXT
+from_index : INTEGER
+from_amount : INTEGER
+from_address : TEXT
+to_tx : TEXT
+to_index : INTEGER
+
+======================
+
+output
+--------
+output_id : INTEGER
+tx_id : INTEGER
+to_tx : TEXT
+to_index : INTEGER
+to_address : TEXT
+to_amount : INTEGER
+spent : INTEGER
+
+======================
+
+coin
+--------
+coin_id : INTEGER
+tx_id : INTEGER
+tx_hash : TEXT
+to_index : INTEGER
+owner_address : TEXT
+amount : INTEGER
+
+======================
+
+account
+--------
+account_id : INTEGER
+account_name : TEXT
+account_amount : INTEGER
+received : INTEGER
+sent : INTEGER
+
+======================
+
+address
+--------
+address_id : INTEGER
+address_str : TEXT
+label : TEXT
+
+======================
+
+config
+--------
+config_id: INTEGER
+program_version : INTEGER
+db_version : INTEGER
+

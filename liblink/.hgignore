@@ -1,0 +1,27 @@
+syntax: glob
+
+.hgignore
+build
+libs
+obj
+*.obj
+*.log
+*.tlog
+*.exe
+*.exe.*
+*.png
+*.gif
+*.xml
+*.bmp
+*.sdf
+*.opensdf
+*.lastbuildstate
+*.pch
+*.pdb
+*.cbp
+*.layout
+*.ipch
+*.suo
+.*.swp
+
+

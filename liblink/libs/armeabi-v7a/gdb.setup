@@ -1,0 +1,3 @@
+set solib-search-path ./obj/local/armeabi-v7a
+source E:/android-ndk-r10d/prebuilt/common/gdb/common.setup
+directory E:/android-ndk-r10d/platforms/android-14/arch-arm/usr/include openssl/include openssl/crypto native/include native/../sqlite3/ native/../sqlitecpp/include/ E:/android-ndk-r10d/sources/cxx-stl/stlport/stlport E:/android-ndk-r10d/sources/cxx-stl//gabi++/include openssl/. openssl/crypto/asn1 openssl/crypto/evp openssl/crypto/modes openssl/include/openssl jni/../Boost-for-Android/build//include/boost-1_53/ jni/../sqlite3/ jni/../sqlitecpp/include/ sqlitecpp/../sqlite3/
